@@ -13,16 +13,16 @@ class KotlinActivity : AppCompatActivity() {
         val image = R.drawable.ic_baseline_code_24
         val lessons = arrayListOf(
             // arrayListOf("Topic","Description","The Lesson")
-            arrayListOf("Topic1","Description1","Detailed notes 1"),
-            arrayListOf("Topic2","Description2","Detailed notes 2"),
-            arrayListOf("Topic3","Description3","Detailed notes 3"),
-            arrayListOf("Topic4","Description4","Detailed notes 4"),
-            arrayListOf("Topic5","Description5","Detailed notes 5"),
-            arrayListOf("Topic6","Description6","Detailed notes 6"),
-            arrayListOf("Topic7","Description7","Detailed notes 7"),
-            arrayListOf("Topic8","Description8","Detailed notes 8"),
-            arrayListOf("Topic9","Description9","Detailed notes 9"),
-            arrayListOf("Topic10","Description10","Detailed notes 10")
+            arrayListOf("val and var","Working with Variables.","Detailed notes here."),
+            arrayListOf("User Input","Getting user input.","Detailed notes here."),
+            arrayListOf("Strings","String Concatenation and Interpolation.","Detailed notes here."),
+            arrayListOf("Data Types","Understanding data types.","Detailed notes here."),
+            arrayListOf("Basic Operations","Performing math operations in Kotlin.","Detailed notes here."),
+            arrayListOf("If Statements","Guiding our program in the right direction.","Detailed notes here."),
+            arrayListOf("Try/Catch","Error handling.","Detailed notes here."),
+            arrayListOf("For Loops","Understanding for loop.","Detailed notes here."),
+            arrayListOf("While Loops","Understanding while loop.","Detailed notes here."),
+            arrayListOf("When","When blocks.","Detailed notes here.")
         )
 
 

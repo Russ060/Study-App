@@ -13,16 +13,10 @@ class AndroidActivity : AppCompatActivity() {
         val image = R.drawable.ic_android_black_24dp
         val lessons = arrayListOf(
             // arrayListOf("Topic","Description","The Lesson")
-            arrayListOf("Topic1","Description1","Detailed notes 1"),
-            arrayListOf("Topic2","Description2","Detailed notes 2"),
-            arrayListOf("Topic3","Description3","Detailed notes 3"),
-            arrayListOf("Topic4","Description4","Detailed notes 4"),
-            arrayListOf("Topic5","Description5","Detailed notes 5"),
-            arrayListOf("Topic6","Description6","Detailed notes 6"),
-            arrayListOf("Topic7","Description7","Detailed notes 7"),
-            arrayListOf("Topic8","Description8","Detailed notes 8"),
-            arrayListOf("Topic9","Description9","Detailed notes 9"),
-            arrayListOf("Topic10","Description10","Detailed notes 10")
+            arrayListOf("Project setup","Setting up an Android Studio project","Detailed notes here."),
+            arrayListOf("Console","Understanding console","Detailed notes here."),
+            arrayListOf("Resource files","Understanding Resources","Detailed notes here."),
+            arrayListOf("UI Elements","Creating, Modifying,and initializing UI elements","Detailed notes here.")
             )
 
 

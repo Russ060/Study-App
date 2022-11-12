@@ -27,7 +27,7 @@ class RecyclerAdapter(val activity: Activity, private val lessons: ArrayList<Arr
             topic.text = lessons[position][0]
             topicDescription.text = lessons[position][1]
             topicLogo.setImageResource(image)
-            card_item.setOnClickListener{ CustomAlertDialog(activity,lessons[position][1],lessons[position][2])}
+            card_item.setOnClickListener{ CustomAlertDialog(activity,lessons[position][0],lessons[position][2])}
         }
     }
 
